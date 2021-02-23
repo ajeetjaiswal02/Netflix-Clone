@@ -39,11 +39,17 @@
     );
 }
 
-.loginScreen_body > h2 {
-    font-size: 2rem;
+.loginScreen_body > h3 {
+    font-size: 1.5rem;
     font-weight: 400;
     margin-bottom: 30px;
 }
+
+.loginScreen_body > h4 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 
 .loginScreen_body {
     position: absolute;
@@ -54,4 +60,26 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+.loginScreen_input > form > input {
+    padding: 10px;
+    outline-width: 0;
+    height: 30px;
+    width: 30%;
+    border: none;
+    max-width: 600px;
+}
+.loginScreen_input{
+    margin: 20px;
+}
+
+.loginScreen_getStarted {
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
 }
