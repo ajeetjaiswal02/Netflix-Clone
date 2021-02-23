@@ -14,7 +14,7 @@
 }
 
 .row_poster {
-  max-height: 100px;
+  max-height: 150px;
   object-fit: contain; /*to get evenly spacing between them*/
   margin-right: 10px;
   width: 100%;
